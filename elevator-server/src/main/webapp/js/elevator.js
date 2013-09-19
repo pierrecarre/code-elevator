@@ -1,5 +1,5 @@
 function ElevatorCtrl($scope, $timeout, $http, ElevatorAuth) {
-    $scope.player = {};
+    $scope.player = {pseudo: 'dgageot', email: "david@gageot.net", serverURL: 'localhost:9000'};
 
     $scope.playerInfo = {
         pseudo: "",
